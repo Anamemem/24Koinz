@@ -35,8 +35,9 @@ export default function Home() {
           spacing={{ xs: "0.00vw", md: "3.99vw" }}
           mt={{xs: "10px"}}
         >
-          <Box maxWidth={{ md: "43.54vw" }}>
-            <Typography  style={{fontFamily: "Inika"}} fontSize={{xs:"38px", sm:"60px", md:"6.25vw"}} variant="h1">
+          <Box  mt={5} maxWidth={{ md: "43.54vw" }}>
+            <Typography  style={{fontFamily: "Raleway", fontWeight: "500"}}
+             fontSize={{xs:"38px", sm:"60px", md:"6.25vw"}} variant="h1">
             Invest in what <br />
            you believe in.
             </Typography>
@@ -50,14 +51,16 @@ export default function Home() {
               alignItems="center"
               spacing={{ xs: "4px", sm: "7px", md: "10px" }}
             >
-             
+                <Link href="./signup">
+
               <Button
-                sx={{ fontSize: { sm: "14px", md: "25px" } }}
+                sx={{ fontSize: { sm: "20px", md: "25px" } }}
                 variant="contained"
               >
-                {" "}
-               Start Investing{" "}
+                
+               Start Investing
               </Button>
+                </Link>
             </Stack>
           </Box>
           <Box pl={{md:"6.60vw"}}  
@@ -65,7 +68,7 @@ export default function Home() {
             <Image src={Hero} alt="heroImage"  layout="responsive" />
           </Box>
         </Stack>
-        <Stack rowGap={{xs:"95px", sm:"97px", md:"130px"}} 
+        <Stack id="how it works" rowGap={{xs:"95px", sm:"97px", md:"130px"}} 
        columnGap={ {xs:"46px", sm:"74px", md:"7.72vw"}}  
        px={{xs:"24px", sm:"38px", md:"4.96vw"}}
                                                       
@@ -119,7 +122,7 @@ Excellent Trustpilot rating.</Typography>
           px={{ xs: "4.80vw", md: "0" }}
           pl={{ md: "2.78vw" }}
           direction={{ xs: "column", md: "row" }}
-          mt={{xs:"85px", sm:"136px", md:"27.24vw"}}
+          mt={{xs:"105px", sm:"136px", md:"32.24vw"}}
           alignItems={"center"}
           // justifyContent={{xs:"flex-start",}}
          
@@ -132,7 +135,8 @@ Excellent Trustpilot rating.</Typography>
           <Box maxWidth={{ md: "43.54vw" }}>
             <Typography textAlign="center" 
             fontSize={{xs:"23px", sm:"37px", md:"3.82vw"}} style={{
-              fontFamily: "Inika"}} variant="h1">
+
+              fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
             The easiest way 
             to invest in
             cryptocurrency<br />
@@ -143,88 +147,38 @@ Excellent Trustpilot rating.</Typography>
             <Stack
               direction="row"
               my={{ xs: "14px", sm: "22px", md: "3.29vw" }}
-              px={{xs:"59px", sm:"108px", md:"9.13vw"}}
+              px={{xs:"89px", sm:"128px", md:"10.13vw"}}
               flexWrap={"wrap"}
               alignItems="center"
               spacing={{ xs: "4px", sm: "7px", md: "10px" }}
             >
-             
+             <Link href="#how it works">
+
               <Button
                 sx={{ fontSize: { sm: "14px", md:"2.22vw" } }}
                 variant="contained"
-              >
+                >
                 {" "}
                How it Works{" "}
               </Button>
+                </Link>
             </Stack>
           </Box>
          
         </Stack>
 
       
-  <Stack px={{xs:"12px", sm:"18px", md:"25px"}} 
-  mt={{xs:"109px", sm:"164px", md:"218px"}}
-  maxWidth={{xs:"657px", sm:"986px", md:"1315px"}}>
-    
-      <Typography textAlign="center" style={{fontWeight: "700", 
-     fontFamily: "Inika"}}
-      fontSize={{xs:"23px", sm:"34px", md:"46px"}}>
-        Get the latest company news and industry updates <br />
-        <Link  style={{color: "black"}} href="/">Visit Blog</Link>
-</Typography>
-    
-  </Stack>
-
-
-
-<Stack direction={{xs: "column", md: "row"}}
-  px={{xs:"15px", sm:"52px", md:"4.42vw"}}
-  mt={{xs:"46px", sm:"73px", md:"7.64vw"}}
  
-  spacing={4}
-  flexWrap="wrap"
-  justifyContent="center">
 
-    
-    
-    <Box maxWidth={{xs:"100%", sm:"100%", md:"25.42vw"}} width="100%" >
-      <Image src={Pictureone}  width={300} alt="card" />
-      <Box mt={{xs:"25px", sm:"40px", md:"4.17vw"}}>
-      <Typography variant="h5">CRYPTOCURRENCIES</Typography>
-      <Typography variant="h7" sx={{lineHeight: "40px"}}>Buy, sell et swap the <br />
-      cryptocurrencies you <br />
-      want anytime, anywhere.
-      </Typography>
-      </Box>
-    </Box>
-    <Box  maxWidth={{xs:"100%", sm:"100%", md:"25.42vw"}} width="100%">
-      <Image src={Picturetwo}  width={300} alt="card" />
-      <Box mt={{xs:"23px", sm:"37px", md:"3.82vw"}}>
-      <Typography variant="h5">NFTs</Typography>
-      <Typography variant="h7" sx={{lineHeight: "40px"}}>Invest in fractions of your<br />
-      favourite NFTs without <br />
-      committing to a whole <br />
-      share.
-      </Typography>
-      </Box>
-    </Box>
-    <Box m maxWidth={{xs:"100%", sm:"100%", md:"25.42vw"}} width="100%">
-      <Image src={Picturethr}  width={290} alt="card" />
-      <Box mt={{xs:"25px", sm:"40px", md:"4.17vw"}}>
-      <Typography variant="h5">Precious Metals</Typography>
-      <Typography variant="h7" sx={{lineHeight: "40px"}}>Auto-invest in the whole <br />
-      crypto market with a  <br />
-      single click.
-      </Typography>
-      </Box>
-    </Box>
-</Stack>
+
+
+
   <Stack px={{xs:"12px", sm:"18px", md:"25px"}} 
   mt={{xs:"109px", sm:"164px", md:"218px"}}
   maxWidth={{xs:"657px", sm:"986px", md:"1315px"}}>
     
       <Typography textAlign="center" style={{fontWeight: "600", 
-     fontFamily: "Inika"}}
+     fontFamily: "Raleway"}}
       fontSize={{xs:"23px", sm:"34px", md:"46px"}}>
         Boost your financial literacy skills
 </Typography>
@@ -288,7 +242,7 @@ Bitcoin and blockchain.
   >
     
       <Typography textAlign="center" style={{fontWeight: "700", 
-     fontFamily: "Inika"}}
+     fontFamily: "Raleway"}}
       fontSize={{xs:"23px", sm:"34px", md:"46px"}}>
         Frequently asked questions
 </Typography>

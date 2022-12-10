@@ -39,8 +39,8 @@ export default function DefaultAppBar() {
               position="relative"
             >
              <Typography  fontSize={{xs:"17px", sm:"26px", md:"36px"}}
-              style={{fontWeight: "700", color: "#021BFF", 
-              fontFamily: "Inika"}}
+              style={{fontWeight: "700", color: "#021BFF"
+              }}
               > 
               24KOINZ</Typography>
             </Box>
@@ -51,13 +51,19 @@ export default function DefaultAppBar() {
   spacing={4}
 pl={5}
 >
+  <Link href="#how it works">
 
     <Typography fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}}
      style={{color: "black", fontWeight: "700", 
-     fontFamily: "Inika"}}>How it works</Typography>
+     fontFamily: "Raleway"}}>How it works</Typography>
+     </Link>
+
+     <Link href="./pricing">
+
     <Typography fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}}
      style={{color: "black", fontWeight: "700", 
-     fontFamily: "Inika"}}>Pricing</Typography>
+     fontFamily: "Raleway"}}>Pricing</Typography>
+     </Link>
     <Box sx={{ minWidth: 6 }} >
       <FormControl variant="filled" fullWidth>
         <InputLabel  variant="filled" id="demo-simple-select-filled-label" >
@@ -65,7 +71,7 @@ pl={5}
         </InputLabel>
         <NativeSelect  fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}}
      style={{color: "black", fontWeight: "700",
-     fontFamily: "Inika", marginTop: "-2px"}}
+     fontFamily: "Raleway", marginTop: "-2px"}}
          labelId="demo-simple-select-filled-label"
          id="demo-simple-select-filled"
           inputProps={{
@@ -73,24 +79,27 @@ pl={5}
             id: 'uncontrolled-native',
           }}
         >
-          <option >NIG</option>
+          <option >BEL</option>
           <option >BRA</option>
           <option >GER</option>
-          <option >ALG</option>
-          <option >CMR</option>
-          <option >EGT</option>
+          <option >HUN</option>
+          <option >EST</option>
+          <option >ENG</option>
           <option >ETH</option>
         </NativeSelect>
       </FormControl>
     </Box>
+    <Link href="./login">
+
     <Typography fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}}
      style={{color: "black", fontWeight: "700", 
-     fontFamily: "Inika"}}>Log in</Typography>
+     fontFamily: "Raleway"}}>Log in</Typography>
+    </Link>
 </Stack>
           </Stack>
           
           <Box>
-            <Link href="/login"  style={{}}>
+            <Link href="/signup"  style={{}}>
             <Button sx={{ minWidth: { sm: "88px", md: "118px" }  }}
             style={{backgroundColor: "#021BFF", color: "white"}}>
             Get Started

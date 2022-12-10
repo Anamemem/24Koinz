@@ -20,12 +20,7 @@ export default function Footer() {
                direction="row"
               >
 
-       <Typography style={{ fontFamily: "Inika"}}>Legal notice</Typography>
-       <Typography style={{ fontFamily: "Inika"}}>Privacy policy</Typography>
-       <Typography style={{ fontFamily: "Inika"}}>Terms & condition </Typography>
-       <Typography style={{ fontFamily: "Inika"}}>Whistleblower</Typography>
-       <Typography style={{ fontFamily: "Inika"}}>Bug bounty</Typography>
-       <Typography style={{ fontFamily: "Inika"}}>Cookie settings</Typography>
+       
             </Stack>
 <Typography mt={10} textAlign="center">© 2022 24KIONZ
 </Typography>

@@ -1,75 +1,117 @@
+import React from "react"
 import { AppBar, Box, Button, Stack, TextField
     , Typography } from "@mui/material"
 import { fontWeight } from "@mui/system"
-import Image from "next/image"
-import Link from "next/link"
-import Nav from "../components/nav"
-import Hero from "../public/Hero.png"
-import login from "../public/login.png"
 
+import Visibility from '@mui/icons-material/Visibility';
+import VisibilityOff from '@mui/icons-material/VisibilityOff';
+import InputLabel from '@mui/material/InputLabel';
+import OutlinedInput from '@mui/material/OutlinedInput';
+import InputAdornment from '@mui/material/InputAdornment';
+import IconButton from '@mui/material/IconButton';
+import FormControl from '@mui/material/FormControl';
 
 
 
 export default function Login() {
+  const [showPassword, setShowPassword] = React.useState(false);
+
+  const handleClickShowPassword = () => setShowPassword((show) => !show);
+
+  const handleMouseDownPassword = (event) => {
+    event.preventDefault();
+  }
+
 
     return(
         <>
+<Stack px={{xs:"12px", sm:"18px", md:"25px"}} 
+  mt={{xs:"31px", sm:"50px", md:"3.21vw"}}
+  maxWidth={{xs:"657px", sm:"986px", md:"1315px"}}>
+    
+     
+<Typography textAlign="center" fontSize={{xs:"17px", sm:"26px", md:"36px"}}
+              style={{fontWeight: "700", color: "#021BFF",fontFamily: "Raleway"
+              }}
+              > 
+              24KOINZ</Typography>
+    
 
+  </Stack>
+  <Stack
+  direction="row"
+  justifyContent="center"
+  alignItems="center"
+  spacing={2}
+>
+  <Box  px={{xs:"30px", sm:"48px", md:"5.00vw"}} sx={{boxShadow: 3}}
+   maxWidth={{xs:"458px", sm:"730px", md:"76.25vw"}}>
+    <Stack mt={2} spacing={{xs: "20px", md: "40px", md: "60px"}} direction={{xs: "column", md: "row"}}>
 
-<Stack
-          px={{ xs: "4.80vw", md: "0" }}
-          pl={{ md: "2.78vw" }}
-          direction={{ xs: "column-reverse", md: "row" }}
-          alignItems={"center"}
-          // justifyContent={{xs:"flex-start",}}
-          spacing={{ xs: "0.00vw", md: "3.99vw" }}
-          mt={{xs: "10px"}}
-        >
-          <Box maxWidth={{ md: "43.54vw" }}>
-           
-          <TextField fullWidth  label="email" id="fullWidth" />
+    <TextField label="First name" sx={{backgroundColor: " #D9D9D9" }} />
+    <TextField label="Last name" sx={{backgroundColor: " #D9D9D9" }} />
+    </Stack>
+    <Stack mt={2} mb={3} direction="column" spacing={3}>
 
+    <TextField sx={{ width: "100%",   backgroundColor: " #D9D9D9" }} label="Country"  />
+    <TextField sx={{ width: "100%",  backgroundColor: " #D9D9D9" }} label="Home adress"  />
+    <TextField sx={{ width: "100%",  backgroundColor: " #D9D9D9" }} label="Email"  />
+    <TextField sx={{ width: "100%",  backgroundColor: " #D9D9D9" }} label="Username"  />
+    <FormControl   sx={{ width: "100%", backgroundColor: " #D9D9D9" }} variant="outlined">
+    <InputLabel htmlFor="outlined-adornment-password">Current Password</InputLabel>
+          <OutlinedInput
           
-
-
-        
-
-            <Typography
-              color="secondary"
-              variant="body2"
-              sx={{
-                  cursor: "pointer",
-                  fontWeight: "400",
-                }}
-            >
-              Dont Have An Account?{" "}
-                <Link href="/signup">
-              <span style={{ fontWeight: "900" }}>Sign Up </span>
-          </Link>
-            </Typography>
-            <Stack
-              direction="row"
-              my={{ xs: "14px", sm: "22px", md: "2.29vw" }}
-              px={{xs:"50px", sm:"80px", md:"8.33vw"}}
-              flexWrap={"wrap"}
-              alignItems="center"
-              spacing={{ xs: "4px", sm: "7px", md: "10px" }}
-            >
-             
-              <Button
-                sx={{ fontSize: { sm: "14px", md: "25px" } }}
-                variant="contained"
+            id="outlined-adornment-password"
+            type={showPassword ? 'text' : 'password'}
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  edge="end"
                 >
-              
-               LogIn
-              </Button>
-            </Stack>
-          </Box>
-          <Box pl={{md:"6.60vw"}}  
-          maxWidth={{ md: "50.54vw" }}  width="100%">
-            <Image src={login} alt="heroImage"  layout="responsive" />
-          </Box>
-        </Stack>
+                  {showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
+            label="Password"
+          />
+        </FormControl>
+
+        <FormControl   sx={{ width: "100%", backgroundColor: " #D9D9D9" }} variant="outlined">
+        <InputLabel htmlFor="outlined-adornment-password">Re-enter Password</InputLabel>
+
+          <OutlinedInput
+          fullWidth 
+            id="outlined-adornment-password"
+            type={showPassword ? 'text' : 'password'}
+            endAdornment={
+              <InputAdornment position="end">
+                <IconButton
+                  aria-label="toggle password visibility"
+                  onClick={handleClickShowPassword}
+                  onMouseDown={handleMouseDownPassword}
+                  edge="end"
+                >
+                  {showPassword ? <VisibilityOff /> : <Visibility />}
+                </IconButton>
+              </InputAdornment>
+            }
+            label="Password"
+          />
+        </FormControl>
+
+       </Stack>
+  </Box>
+</Stack>
+  <Stack
+  direction="row"
+  justifyContent="center"
+  alignItems="center"
+  spacing={2}
+><Button>Submit</Button></Stack>
+
 
                   </>
     )

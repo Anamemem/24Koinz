@@ -53,7 +53,7 @@ export default function Login() {
 
           
           <FormControl   sx={{ width: "100%", backgroundColor: " #021BFF" }} variant="outlined">
-          
+          <InputLabel htmlFor="outlined-adornment-password"> Password</InputLabel>
           <OutlinedInput
           fullWidth 
             id="outlined-adornment-password"

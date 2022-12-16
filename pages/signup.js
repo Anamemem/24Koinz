@@ -110,7 +110,9 @@ export default function Login() {
   justifyContent="center"
   alignItems="center"
   spacing={2}
-><Button>Submit</Button></Stack>
+  mt={5}
+><Button s sx={{ fontSize: { sm: "14px", md: "25px" } }}
+                variant="contained">Submit</Button></Stack>
 
 
                   </>

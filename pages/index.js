@@ -247,70 +247,7 @@ crypto investment is daunting due to the uncertainty and volatility of the marke
         </Stack>
 
 
-  <Stack px={{xs:"12px", sm:"18px", md:"25px"}} 
-  mt={{xs:"109px", sm:"164px", md:"218px"}}
-  maxWidth={{xs:"657px", sm:"986px", md:"1315px"}}>
-    
-      <Typography textAlign="center" style={{fontWeight: "600", 
-     fontFamily: "Raleway"}}
-      fontSize={{xs:"23px", sm:"34px", md:"46px"}}>
-        Boost your financial literacy skills
-</Typography>
-    
-  </Stack>
-
- 
-  <Stack  direction={{xs: "column", md: "row"}} spacing={10}
-  px={{xs:"27px", sm:"41px", md:"54px"}} mt={5}
-   >
-    <Box maxWidth={{xs:"100%", sm:"100%", md:"554px"}}
-    minHeight={{xs:"325px", sm:"487px", md:"650px"}}
-    px={{xs:"5px", sm:"7px", md:"9px"}}
-    style={{backgroundColor: "#CD6A0F"}}
-    
-    width="100%">
-
-      <Button  style={{backgroundColor: "#D9D9D975",
-       margin: "20px", color: "white", 
-       fontFamily: "Inika"}}>24kIONZ BLOG</Button>
-       <Typography mt={{xs:"90px", sm:"134px", md:"179px"}} color="white" style={{
-     fontFamily: "Inika"}}
-       fontSize={{xs:"17px", sm:"26px", md:"34px"}}>Get the latest company <br />
-        news and industry updates
-
-        </Typography>
-
-<Link style={{textDecoration: "none"}}  href="/">
-  <Typography mt={5} fontSize={{xs:"11px", sm:"17px", md:"23px"}} style={{ fontFamily: "Inika"}}
-  color="white">Visit blog</Typography></Link>
-
-
-    </Box>
-    <Box maxWidth={{xs:"100%", sm:"100%", md:"554px"}}
-    minHeight={{xs:"325px", sm:"487px", md:"650px"}}
-    px={{xs:"5px", sm:"7px", md:"9px"}}
-    style={{backgroundColor: "#52EB7D", 
-    fontFamily: "Inika"}}
-    width="100%">
-
-      <Button  style={{backgroundColor: "#D9D9D975",
-       margin: "20px", color: "white"}}>24kIONZ Academy</Button>
-
-<Typography mt={{xs:"90px", sm:"134px", md:"179px"}} color="white"  style={{ fontFamily: "Inika"}}
-fontSize={{xs:"17px", sm:"26px", md:"34px"}}>Learn all about investing,<br />
-Bitcoin and blockchain.
-</Typography>
-
-<Link style={{textDecoration: "none"}}  href="/">
-  <Typography mt={5} style={{
-     fontFamily: "Inika"}} fontSize={{xs:"11px", sm:"17px", md:"23px"}} 
-  color="white">Visit Academy</Typography></Link>
-
-
-    </Box>
-
- </Stack>
- <Stack px={{xs:"37px", sm:"130px", md:"174px"}} 
+   <Stack px={{xs:"37px", sm:"130px", md:"174px"}} 
   mt={{xs:"109px", sm:"164px", md:"218px"}}
   maxWidth={{xs:"657px", sm:"986px", md:"1315px"}}
   >

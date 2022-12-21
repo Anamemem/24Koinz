@@ -112,7 +112,7 @@ export default function Login() {
   spacing={2}
   mt={5}
 ><Button s sx={{ fontSize: { sm: "14px", md: "25px" } }}
-                variant="contained">Submit</Button></Stack>
+                variant="contained">Submit</Button></Stack>s
 
 
                   </>

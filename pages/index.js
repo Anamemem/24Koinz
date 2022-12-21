@@ -10,6 +10,7 @@ import One from "../public/One.png"
 import Two from "../public/Two.png"
 import Thr from "../public/Thr.png"
 import Section from "../public/Section.png"
+import BitImg from "../public/BitImg.png"
 import Group23 from "../public/Group23.png"
 import Pictureone from "../public/Pictureone.png"
 import Picturetwo from "../public/Picturetwo.png"
@@ -167,10 +168,83 @@ Excellent Trustpilot rating.</Typography>
          
         </Stack>
 
-      
+      <Stack direction={{xs: "column", md: "column"}} alignItems="center" justifyContent="center"
+      mt={{xs:"50px", sm:"80px", md:"8.33vw"}}
+      px={{xs:"10px"}}>
+      <Typography textAlign="center" 
+            fontSize={{xs:"20px", sm:"32px", md:"3.33vw"}} style={{
+
+              fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
+            You don't need to be an expert to
+           <span style={{color: "#021BFF"}}> build <br />
+           your cryptocurrency portfolio and <br />
+           digital wealth</span> 
+            </Typography>
+            <Typography textAlign="center" 
+            fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}} style={{
+              fontFamily: "Raleway", fontWeight: "400"}}
+              mt={{xs:"29px", sm:"47px", md:"4.86vw"}} 
+              variant="h4">
+            Investing in cryptocurrency can be intimidating, especially for beginners. Sometimes managing a<br /> 
+crypto investment is daunting due to the uncertainty and volatility of the market, as well as the<br />
+ time investment needed to be successful.
+ 
+            </Typography>
+      </Stack>
  
 
+      <Stack
+          px={{ xs: "4.80vw", md: "0" }}
+          pl={{ md: "2.78vw" }}
+          direction={{ xs: "column", md: "row" }}
+          mt={{xs:"105px", sm:"136px", md:"32.24vw"}}
+          alignItems={"center"}
+          // justifyContent={{xs:"flex-start",}}
+         
+         
+        >
+           <Box  
+          maxWidth={{ md: "45.54vw" }}  width="100%">
+            <Image src={BitImg} alt="sectionImage" />
+          </Box>
+          <Box maxWidth={{ md: "43.54vw" }}>
+            <Stack justfyContent="center"> 
+            <Typography textAlign={{xs: "center", md: "flex-end"}} 
+            fontSize={{xs:"23px", sm:"37px", md:"3.82vw"}} style={{
 
+              fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
+            Register
+            </Typography>
+            <Typography textAlign={{xs: "center", md:"flex-end"}}
+            fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}} style={{
+              fontFamily: "Raleway", fontWeight: "400"}}
+              mt={{xs:"29px", sm:"47px", md:"4.86vw"}} 
+              variant="h4">
+            Sign up to create your free cryptocurrency account
+            </Typography>
+            </Stack>
+            <Stack
+              direction="row"
+              my={{ xs: "14px", sm: "22px", md: "3.29vw" }}
+              px={{xs:"89px", sm:"128px", md:"10.13vw"}}
+              flexWrap={"wrap"}
+              alignItems="center"
+              spacing={{ xs: "4px", sm: "7px", md: "10px" }}
+            >
+             <Link href="/signup">
+
+              <Button
+                sx={{ fontSize: { xs:"8px", sm:"13px", md:"1.39vw"} }}
+                variant="contained"
+                >
+                {" "}
+               Get Started{" "}
+              </Button>
+                </Link>
+            </Stack>
+          </Box>
+         
+        </Stack>
 
 
   <Stack px={{xs:"12px", sm:"18px", md:"25px"}} 

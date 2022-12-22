@@ -176,10 +176,10 @@ Excellent Trustpilot rating.</Typography>
 
               fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
             You don't need to be an expert to
-           <span style={{color: "#021BFF"}}> build <br />
+           <span style={{color: `#021BFF`}}> build <br />
            your cryptocurrency portfolio and <br />
            digital wealth</span> 
-            </Typography>
+            </Typography>    
             <Typography textAlign="center" 
             fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}} style={{
               fontFamily: "Raleway", fontWeight: "400"}}
@@ -274,12 +274,12 @@ mb={6}
           id="panel1a-header"
         >
           <Typography style={{fontWeight: "600", 
-     fontFamily: "Inika"}}>Do you have a moblie app?</Typography>
+     fontFamily: "Inika"}}> what  are cryptocurrencies?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+           these are  digital assest that started as a 
+           medium of exchange for people to buy goods and services over time their functionality has expanded
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -292,12 +292,13 @@ mb={6}
           id="panel1a-header"
           >
           <Typography style={{fontWeight: "600", 
-     fontFamily: "Inika"}}>What are the fees?</Typography>
+     fontFamily: "Inika"}}>how are cryptocurrency transactions recorded?</Typography>
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+           cryptocurrency transactions are recorded on a shared,
+           digital ledger called a blockchain. this is decentralize technology, spread
+           across many computers that records every transactions
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -315,8 +316,7 @@ mb={6}
   </AccordionSummary>
   <AccordionDetails>
     <Typography>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      malesuada lacus ex, sit amet blandit leo lobortis eget.
+24Koinz have a single deposit system. BTC is the majorly accepted coin 
     </Typography>
   </AccordionDetails>
 </Accordion>
@@ -340,8 +340,8 @@ mb={6}
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            the risk of trading cryptocurrencies are mainly related to its volatility. they are high 
+            risk and speculative and its important that you understand the risk before you start trading 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -358,8 +358,7 @@ mb={6}
         </AccordionSummary>
         <AccordionDetails>
           <Typography>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-            malesuada lacus ex, sit amet blandit leo lobortis eget.
+            24koinz withdrawal system is very flexible .this means every investor can make a withdrawal at when due 
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -378,8 +377,7 @@ into my account?</Typography>
   </AccordionSummary>
   <AccordionDetails>
     <Typography>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-      malesuada lacus ex, sit amet blandit leo lobortis eget.
+     our funds processing occurs within 24hour 
     </Typography>
   </AccordionDetails>
 </Accordion>

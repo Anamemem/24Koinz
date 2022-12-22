@@ -175,7 +175,7 @@ Excellent Trustpilot rating.</Typography>
             fontSize={{xs:"20px", sm:"32px", md:"3.33vw"}}
              style={{fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
             You don't need to be an expert to
-           <span style={{color: "#021BFF", lineHeight: "100px"}}>  build <br />
+           <span style={{color: "#021BFF", lineHeight: "100px"}}>  build 
 your cryptocurrency portfolio and
 digital wealth</span> 
             </Typography>    

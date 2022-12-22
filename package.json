@@ -6,8 +6,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "extends": "next",
+    "rules": {
+      "react/no-unescaped-entities": "off",
+      "@next/next/no-page-custom-font": "off"
+    }
   },
+  
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
@@ -24,4 +30,5 @@
     "react-icons": "^4.7.1",
     "typescript": "4.9.3"
   }
+  
 }

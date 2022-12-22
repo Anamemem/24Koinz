@@ -32,9 +32,9 @@ export default function Home() {
           pl={{ md: "2.78vw" }}
           direction={{ xs: "column-reverse", md: "row" }}
           alignItems={"center"}
+          mt={{xs: "10px"}}
           // justifyContent={{xs:"flex-start",}}
           spacing={{ xs: "0.00vw", md: "3.99vw" }}
-          mt={{xs: "10px"}}
         >
           <Box  mt={5} maxWidth={{ md: "43.54vw" }}>
             <Typography  style={{fontFamily: "Raleway", fontWeight: "500"}}
@@ -69,7 +69,7 @@ export default function Home() {
             <Image src={Hero} alt="heroImage"  layout="responsive" />
           </Box>
         </Stack>
-        <Stack id="how it works" rowGap={{xs:"95px", sm:"97px", md:"130px"}} 
+        <Stack   rowGap={{xs:"95px", sm:"97px", md:"130px"}} 
        columnGap={ {xs:"46px", sm:"74px", md:"7.72vw"}}  
        px={{xs:"24px", sm:"38px", md:"4.96vw"}}
                                                       
@@ -178,7 +178,7 @@ Excellent Trustpilot rating.</Typography>
            <span style={{color: "#021BFF"}}>   build <br />your cryptocurrency portfolio and digital wealth.</span> 
             </Typography>    
             <Typography textAlign="center" 
-            fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}} style={{
+            fontSize={{xs:"14px", sm:"16px", md:"1.67vw"}} style={{
               fontFamily: "Raleway", fontWeight: "400"}}
               mt={{xs:"29px", sm:"47px", md:"4.86vw"}} 
               variant="h4">
@@ -188,13 +188,77 @@ crypto investment is daunting due to the uncertainty and volatility of the marke
  
             </Typography>
       </Stack>
+      <Stack id="how it works"  direction={{xs: "column", md: "column"}} alignItems="center" justifyContent="center"
+      mt={{xs:"50px", sm:"80px", md:"8.33vw"}}
+      px={{xs:"10px"}}>
+      <Typography textAlign="center" 
+            fontSize={{xs:"20px", sm:"32px", md:"3.33vw"}}
+             style={{fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
+          What we offer
+            </Typography>    
+            <Stack rowGap={{xs:"95px", sm:"97px", md:"130px"}} 
+       columnGap={ {xs:"46px", sm:"74px", md:"7.72vw"}}  
+      
+                 pl={{xs: "20px"}}                                     
+       direction={{ xs: "column", md: "row" }}>
+
+        <Box mt={14} 
+          textAlign="center"  
+ maxWidth={{ md: "45.54vw" }}  height="100px"  width="100%">
+    <Image  src={Pictureone} width={300}  alt="" />
+
+    <Typography textAlign="center" mt={3}
+            fontSize={{md:"1.67vw"}} px={{xs: "13px", md: "0px"}}
+            style={{fontWeight: "700", textAlign: "start",
+            fontFamily: "Inika"}} >cryptocurrencies</Typography>
+            <Typography px={{xs: "13px", md: "0px"}} fontSize={{md:"1.5vw"}} style={{fontWeight: "500", textAlign: "start",
+     fontFamily: "Inika"}}>
+           Buy,sell & swap the< br />
+cryptocurrencies you <br />
+want anytime,anywhere.</Typography>
+          </Box>
+          <Box mt={14}
+          textAlign="center"  
+ maxWidth={{ md: "45.54vw" }}  height="100px"  width="100%">
+   <Image  src={Picturetwo} width={300} height="50px" alt="" />
+
+            <Typography textAlign="center" mt={3}
+            fontSize={{md:"1.67vw"}} px={{xs: "13px", md: "0px"}}
+            style={{fontWeight: "700", textAlign: "start",
+            fontFamily: "Inika"}} >NFTs</Typography>
+            <Typography px={{xs: "13px", md: "0px"}} fontSize={{md:"1.5vw"}} style={{fontWeight: "500", textAlign: "start",
+     fontFamily: "Inika"}}>
+          Invest in fractions of your <br />
+favourite NFTs without <br />
+committing to a whole 
+share.
+</Typography>
+          </Box>
+          <Box  mt={14} 
+          textAlign="center"  
+ maxWidth={{ md: "45.54vw" }}  height="100px"  width="100%">
+     <Image  src={Picturethr} width={300} height="50px" alt="" />
+
+            <Typography  mt={4}
+            fontSize={{md:"1.67vw"}}
+            style={{fontWeight: "700", textAlign: "start",
+            fontFamily: "Inika"}} >Precious Metals</Typography>
+            <Typography fontSize={{md:"1.5vw"}} style={{fontWeight: "500", textAlign: "start",
+     fontFamily: "Inika"}}>
+         Auto-invest in the whole<br />
+crypto market with a<br />
+single click.
+</Typography>
+          </Box>
+          </Stack>
+      </Stack>
  
 
       <Stack
           px={{ xs: "4.80vw", md: "0" }}
-          pl={{ md: "2.78vw" }}
+          pl={{ md: "8.78vw" }}
           direction={{ xs: "column", md: "row" }}
-          mt={{xs:"105px", sm:"136px", md:"32.24vw"}}
+          mt={{xs:"350px", sm:"400px", md:"32.24vw"}}
           alignItems={"center"}
           // justifyContent={{xs:"flex-start",}}
          

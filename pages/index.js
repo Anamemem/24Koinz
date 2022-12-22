@@ -172,13 +172,9 @@ Excellent Trustpilot rating.</Typography>
       mt={{xs:"50px", sm:"80px", md:"8.33vw"}}
       px={{xs:"10px"}}>
       <Typography textAlign="center" 
-            fontSize={{xs:"20px", sm:"32px", md:"3.33vw"}} style={{
-
-              fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
-            You don't need to be an expert to
-           <span > build <br />
-           your cryptocurrency portfolio and <br />
-           digital wealth</span> 
+            fontSize={{xs:"20px", sm:"32px", md:"3.33vw"}}
+             style={{fontFamily: "Raleway", fontWeight: "500"}} variant="h1">
+          
             </Typography>    
             <Typography textAlign="center" 
             fontSize={{xs:"10px", sm:"16px", md:"1.67vw"}} style={{

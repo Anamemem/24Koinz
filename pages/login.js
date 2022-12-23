@@ -87,7 +87,7 @@ export default function Login() {
                 }}
             >
               Dont Have An Account?{" "}
-                <Link href="/user">
+                <Link href="/">
               <span style={{ fontWeight: "900" }}>Sign Up </span>
           </Link>
             </Typography>
@@ -99,7 +99,7 @@ export default function Login() {
               alignItems="center"
               spacing={{ xs: "4px", sm: "7px", md: "10px" }}
             >
-             <Link href="/">
+             <Link href="/user">
 
               <Button
                 sx={{ fontSize: { sm: "14px", md: "25px" } }}

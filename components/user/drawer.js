@@ -20,6 +20,7 @@ import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import { Grid, Stack } from "@mui/material";
 import Avatar from '@mui/material/Avatar';
+import Link from "next/link"
 
 
 
@@ -126,7 +127,20 @@ export default function PersistentDrawerLeft() {
     <Avatar alt="Remy Sharp"   src="/static/images/avatar/1.jpg" />
 <Typography color="black" variant="h4" >NavBar</Typography>
     </Stack>
-<Typography mt={15} px={10} color="black" variant="h4" >withdraw <br />Referral</Typography>
+    <Link href="/user/withdraw">
+
+<Typography mt={15} px={10} color="black" fontSize={{ xs: "14px", sm: "16px", md: "1.67vw" }}
+        style={{fontFamily: "Raleway", fontWeight: "600"}}
+
+>withdraw <br />Referral</Typography>
+</Link>
+<Link href="/user/deposit">
+
+<Typography mt={10} px={10} color="black" fontSize={{ xs: "14px", sm: "16px", md: "1.67vw" }}
+        style={{fontFamily: "Raleway", fontWeight: "600"}}
+
+>Deposit</Typography>
+</Link>
     </Box>
       </Drawer>
       <Main open={open}>

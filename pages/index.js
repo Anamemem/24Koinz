@@ -185,7 +185,7 @@ Excellent Trustpilot rating.</Typography>
             Investing in cryptocurrency can be intimidating, especially for beginners. Sometimes managing a<br /> 
 crypto investment is daunting due to the uncertainty and volatility of the market, as well as the<br />
  time investment needed to be successful.
- 
+             
             </Typography>
       </Stack>
       <Stack id="how it works"  direction={{xs: "column", md: "column"}} alignItems="center" justifyContent="center"
